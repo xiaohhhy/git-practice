@@ -11,6 +11,6 @@
 int main(void)
 {
     /* 中文注释：仓库里统一 UTF-8（无 BOM），换行统一 LF */
-    printf("你好，Git！\n");
+    printf("你好，Git！来自 feature 分支\n");
     return 0;
 }
