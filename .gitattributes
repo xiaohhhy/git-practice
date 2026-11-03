@@ -1,0 +1,24 @@
+# 仓库内文本统一存为 LF；工作区按规则检出
+* text=auto eol=lf
+
+# 源码与文档
+*.c    text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Windows 脚本保留 CRLF，避免 cmd.exe 解析异常
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# 二进制文件不做任何转换
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.bin  binary
+*.hex  binary
+*.axf  binary

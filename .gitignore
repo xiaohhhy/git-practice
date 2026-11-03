@@ -1,0 +1,19 @@
+# 构建产物
+build/
+out/
+*.o
+*.obj
+*.axf
+*.hex
+*.map
+*.lst
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# 日志与临时文件
+*.log
+*.tmp
